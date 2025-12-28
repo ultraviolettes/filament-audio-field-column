@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Croustibat\FilamentAudio\Tables\Columns;
+namespace Ultraviolettes\FilamentAudio\Tables\Columns;
 
 use Closure;
 use Filament\Tables\Columns\Column;

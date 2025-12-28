@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Croustibat\FilamentAudio\Infolists\Components;
+namespace Ultraviolettes\FilamentAudio\Infolists\Components;
 
 use Closure;
 use Filament\Infolists\Components\Entry;

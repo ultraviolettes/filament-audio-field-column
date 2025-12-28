@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Croustibat\FilamentAudio;
+namespace Ultraviolettes\FilamentAudio;
 
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;

@@ -22,7 +22,7 @@ A Filament V4 plugin that provides audio player components with circular progres
 ## Installation
 
 ```bash
-composer require croustibat/filament-audio-field-column
+composer require ultraviolettes/filament-audio-field-column
 ```
 
 ## Usage
@@ -32,7 +32,7 @@ composer require croustibat/filament-audio-field-column
 Display an audio player in your table:
 
 ```php
-use Croustibat\FilamentAudio\Tables\Columns\AudioColumn;
+use Ultraviolettes\FilamentAudio\Tables\Columns\AudioColumn;
 
 public static function table(Table $table): Table
 {
@@ -55,7 +55,7 @@ public static function table(Table $table): Table
 Display an audio player in your infolist:
 
 ```php
-use Croustibat\FilamentAudio\Infolists\Components\AudioEntry;
+use Ultraviolettes\FilamentAudio\Infolists\Components\AudioEntry;
 
 public static function infolist(Infolist $infolist): Infolist
 {
@@ -74,7 +74,7 @@ public static function infolist(Infolist $infolist): Infolist
 Display an audio preview in your form (read-only player):
 
 ```php
-use Croustibat\FilamentAudio\Forms\Components\AudioField;
+use Ultraviolettes\FilamentAudio\Forms\Components\AudioField;
 
 public static function form(Form $form): Form
 {
@@ -182,6 +182,6 @@ MIT License. See [LICENSE.md](LICENSE.md) for more information.
 
 ## Credits
 
-- Inspired by the audio preview component from [BTY Monorepo](https://github.com/croustibat)
+- Inspired by the audio preview component from [BTY Monorepo](https://github.com/ultraviolettes)
 - Built with [Filament](https://filamentphp.com)
 - Uses [Alpine.js](https://alpinejs.dev) for interactivity
