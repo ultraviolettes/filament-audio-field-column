@@ -1,0 +1,58 @@
+{
+    "name": "croustibat/filament-audio-field-column",
+    "description": "A Filament plugin to display audio players with circular progress in forms, tables, and infolists",
+    "keywords": [
+        "laravel",
+        "filament",
+        "audio",
+        "mp3",
+        "player",
+        "circular-progress"
+    ],
+    "homepage": "https://github.com/croustibat/filament-audio-field-column",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Croustibat",
+            "email": "croustibat@example.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0",
+        "spatie/laravel-package-tools": "^1.16"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.14",
+        "nunomaduro/larastan": "^2.9 || ^3.0",
+        "orchestra/testbench": "^9.0 || ^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Croustibat\\FilamentAudio\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Croustibat\\FilamentAudio\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "pint": ["./vendor/bin/pint"],
+        "phpstan": ["./vendor/bin/phpstan analyse --error-format=table"],
+        "check": ["@pint", "@phpstan"]
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Croustibat\\FilamentAudio\\AudioServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

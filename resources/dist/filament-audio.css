@@ -1,0 +1,83 @@
+.filament-audio-player {
+    --audio-player-transition: all 0.2s ease;
+}
+
+.filament-audio-player [x-cloak] {
+    display: none !important;
+}
+
+/* Range input styling */
+.filament-audio-player input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.filament-audio-player input[type="range"]::-webkit-slider-runnable-track {
+    height: 4px;
+    border-radius: 2px;
+    background: rgb(209 213 219); /* gray-300 */
+}
+
+.dark .filament-audio-player input[type="range"]::-webkit-slider-runnable-track {
+    background: rgb(55 65 81); /* gray-700 */
+}
+
+.filament-audio-player input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-500, #3b82f6);
+    margin-top: -4px;
+    transition: var(--audio-player-transition);
+}
+
+.filament-audio-player input[type="range"]::-webkit-slider-thumb:hover {
+    transform: scale(1.2);
+}
+
+.filament-audio-player input[type="range"]::-moz-range-track {
+    height: 4px;
+    border-radius: 2px;
+    background: rgb(209 213 219);
+}
+
+.dark .filament-audio-player input[type="range"]::-moz-range-track {
+    background: rgb(55 65 81);
+}
+
+.filament-audio-player input[type="range"]::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--primary-500, #3b82f6);
+    border: none;
+    transition: var(--audio-player-transition);
+}
+
+.filament-audio-player input[type="range"]::-moz-range-thumb:hover {
+    transform: scale(1.2);
+}
+
+/* Progress ring animation */
+.filament-audio-player .progress-ring__circle {
+    transition: stroke-dashoffset 0.1s linear;
+}
+
+/* Button hover effects */
+.filament-audio-player button {
+    transition: var(--audio-player-transition);
+}
+
+.filament-audio-player button:focus {
+    outline: none;
+}
+
+.filament-audio-player button:focus-visible {
+    outline: 2px solid var(--primary-500, #3b82f6);
+    outline-offset: 2px;
+    border-radius: 9999px;
+}
