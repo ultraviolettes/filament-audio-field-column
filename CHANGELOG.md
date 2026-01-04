@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.2] - 2025-01-04
+
+### Added
+- Demo GIF in README for better visual documentation
+
 ## [1.1.1] - 2025-01-04
 
 ### Fixed

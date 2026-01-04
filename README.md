@@ -7,6 +7,8 @@ A Filament V4 plugin that provides audio player components with circular progres
 ![Laravel](https://img.shields.io/badge/Laravel-11+-red)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
+![Demo](demo.gif)
+
 ## Features
 
 - Play/Pause button with smooth animations
