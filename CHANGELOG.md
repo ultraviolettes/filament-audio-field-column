@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.3] - 2025-01-04
+
+### Fixed
+- Updated demo GIF with correct volume alignment
+
 ## [1.1.2] - 2025-01-04
 
 ### Added
