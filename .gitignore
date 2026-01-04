@@ -1,10 +1,10 @@
 /vendor
 /node_modules
 .phpunit.result.cache
+.phpunit.cache
 .php-cs-fixer.cache
 composer.lock
 package-lock.json
-phpunit.xml
 .idea
 .vscode
 .DS_Store

@@ -26,7 +26,8 @@
     "require-dev": {
         "laravel/pint": "^1.14",
         "nunomaduro/larastan": "^2.9 || ^3.0",
-        "orchestra/testbench": "^9.0 || ^10.0"
+        "orchestra/testbench": "^9.0 || ^10.0",
+        "phpunit/phpunit": "^12.5"
     },
     "autoload": {
         "psr-4": {
@@ -41,7 +42,8 @@
     "scripts": {
         "pint": ["./vendor/bin/pint"],
         "phpstan": ["./vendor/bin/phpstan analyse --error-format=table"],
-        "check": ["@pint", "@phpstan"]
+        "test": ["./vendor/bin/phpunit"],
+        "check": ["@pint", "@phpstan", "@test"]
     },
     "config": {
         "sort-packages": true

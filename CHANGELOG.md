@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.1.0] - 2025-01-04
+
+### Added
+- PHPUnit test suite with 25 tests
+- Tests for AudioColumn, AudioEntry, and AudioField components
+- `composer test` script to run tests
+
 ## [1.0.0] - 2024-12-22
 
 ### Added
