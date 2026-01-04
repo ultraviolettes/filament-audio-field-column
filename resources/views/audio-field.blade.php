@@ -213,7 +213,7 @@
 
         @if($showVolume)
         {{-- Volume Control --}}
-        <div style="display: flex; align-items: center; gap: 0.25rem; flex-shrink: 0;">
+        <div style="display: flex; align-items: center; gap: 0.25rem; flex-shrink: 0; align-self: flex-start; margin-top: 0.125rem;">
             <button
                 type="button"
                 @click="toggleMute()"
